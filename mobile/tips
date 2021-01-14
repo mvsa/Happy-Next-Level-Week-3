@@ -1,0 +1,17 @@
+yarn global add expo-cli - apenas caso a maquina n tenha expo
+
+expo init mobile
+yarn start
+
+expo install react-native-maps
+expo install @expo-google-fonts/nunito expo-font  - esse outro pacote é so na primeira vez
+yarn add @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/stack
+
+
+
+---------------------------------------------------------------------------
+
+- Checar onde os binarios globais estão instalados: yarn global bin
+- posso usar o expo para criar PWAs
