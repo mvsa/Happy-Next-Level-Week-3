@@ -9,9 +9,23 @@ yarn add @react-navigation/native
 expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 npm install @react-navigation/stack
 
-
+yarn add axios
+expo install expo-image-picker
 
 ---------------------------------------------------------------------------
 
 - Checar onde os binarios globais estão instalados: yarn global bin
 - posso usar o expo para criar PWAs
+react native por padrão todo elemento vem com display flex e Direction column
+
+BorderlessButton botão para textos ou icones
+Rectbuttom - pra n tirar a opacidade do botão
+
+pagingEnabled - causa um efeito de snap no scrol horizontal
+
+ onChangeText={text=>setName(text)} se eu tiver usando um unico param ele for set passado na função
+ posso simplesmente fazer onChangeText={setName}
+
+
+ verificar desafios no githuub rocketseat-education
+ tabnine
